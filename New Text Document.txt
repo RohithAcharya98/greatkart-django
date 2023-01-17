@@ -1,0 +1,384 @@
+
+E:\Projects for Python\Veronica>git init
+Reinitialized existing Git repository in E:/Projects for Python/Veronica/.git/
+
+E:\Projects for Python\Veronica>git remote add origin https://github.com/RohithAcharya98/greatkart-django.git
+
+E:\Projects for Python\Veronica>git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/RohithAcharya98/greatkart-django.git'
+
+E:\Projects for Python\Veronica>git branch -M main
+
+E:\Projects for Python\Veronica>git push -u origin main
+
+E:\Projects for Python\Veronica>
+E:\Projects for Python\Veronica>git push -u origin main
+info: please complete authentication in your browser...
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 1.85 KiB | 474.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/RohithAcharya98/greatkart-django.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+E:\Projects for Python\Veronica>git commit -m "this is my first commit"
+[main b04634d] this is my first commit
+ 335 files changed, 81403 insertions(+)
+ create mode 100644 .idea/.gitignore
+ create mode 100644 .idea/Veronica.iml
+ create mode 100644 .idea/inspectionProfiles/profiles_settings.xml
+ create mode 100644 .idea/misc.xml
+ create mode 100644 .idea/modules.xml
+ create mode 100644 .idea/vcs.xml
+ create mode 100644 EdiwnPro/.idea/.gitignore
+ create mode 100644 EdiwnPro/.idea/EdiwnPro.iml
+ create mode 100644 EdiwnPro/.idea/inspectionProfiles/profiles_settings.xml
+ create mode 100644 EdiwnPro/.idea/misc.xml
+ create mode 100644 EdiwnPro/.idea/modules.xml
+ create mode 100644 EdiwnPro/__init__.py
+ create mode 100644 EdiwnPro/asgi.py
+ create mode 100644 EdiwnPro/settings.py
+ create mode 100644 EdiwnPro/static/css/.DS_Store
+ create mode 100644 EdiwnPro/static/css/bootstrap.css
+ create mode 100644 EdiwnPro/static/css/responsive.css
+ create mode 100644 EdiwnPro/static/css/responsive.css.map
+ create mode 100644 EdiwnPro/static/css/ui.css
+ create mode 100644 EdiwnPro/static/css/ui.css.map
+ create mode 100644 EdiwnPro/static/fonts/.DS_Store
+ create mode 100644 EdiwnPro/static/fonts/fontawesome/.DS_Store
+ create mode 100644 EdiwnPro/static/fonts/fontawesome/css/.DS_Store
+ create mode 100644 EdiwnPro/static/fonts/fontawesome/css/all.css
+ create mode 100644 EdiwnPro/static/fonts/fontawesome/css/all.min.css
+ create mode 100644 EdiwnPro/static/fonts/fontawesome/webfonts/fa-brands-400.eot
+ create mode 100644 EdiwnPro/static/fonts/fontawesome/webfonts/fa-brands-400.svg
+ create mode 100644 EdiwnPro/static/fonts/fontawesome/webfonts/fa-brands-400.ttf
+ create mode 100644 EdiwnPro/static/fonts/fontawesome/webfonts/fa-brands-400.woff
+ create mode 100644 EdiwnPro/static/fonts/fontawesome/webfonts/fa-brands-400.woff2
+ create mode 100644 EdiwnPro/static/fonts/fontawesome/webfonts/fa-regular-400.eot
+ create mode 100644 EdiwnPro/static/fonts/fontawesome/webfonts/fa-regular-400.svg
+ create mode 100644 EdiwnPro/static/fonts/fontawesome/webfonts/fa-regular-400.ttf
+ create mode 100644 EdiwnPro/static/fonts/fontawesome/webfonts/fa-regular-400.woff
+ create mode 100644 EdiwnPro/static/fonts/fontawesome/webfonts/fa-regular-400.woff2
+ create mode 100644 EdiwnPro/static/fonts/fontawesome/webfonts/fa-solid-900.eot
+ create mode 100644 EdiwnPro/static/fonts/fontawesome/webfonts/fa-solid-900.svg
+ create mode 100644 EdiwnPro/static/fonts/fontawesome/webfonts/fa-solid-900.ttf
+ create mode 100644 EdiwnPro/static/fonts/fontawesome/webfonts/fa-solid-900.woff
+ create mode 100644 EdiwnPro/static/fonts/fontawesome/webfonts/fa-solid-900.woff2
+ create mode 100644 EdiwnPro/static/fonts/roboto/Roboto-Bold.ttf
+ create mode 100644 EdiwnPro/static/fonts/roboto/Roboto-Light.ttf
+ create mode 100644 EdiwnPro/static/fonts/roboto/Roboto-Medium.ttf
+ create mode 100644 EdiwnPro/static/fonts/roboto/Roboto-Regular.ttf
+ create mode 100644 EdiwnPro/static/fonts/roboto/Roboto-Thin.ttf
+ create mode 100644 EdiwnPro/static/fonts/roboto/font-min.css
+ create mode 100644 EdiwnPro/static/fonts/roboto/font.css
+ create mode 100644 EdiwnPro/static/images/avatars/avatar1.jpg
+ create mode 100644 EdiwnPro/static/images/avatars/avatar2.jpg
+ create mode 100644 EdiwnPro/static/images/avatars/avatar3.jpg
+ create mode 100644 EdiwnPro/static/images/banners/1.jpg
+ create mode 100644 EdiwnPro/static/images/banners/cover.jpg
+ create mode 100644 EdiwnPro/static/images/favicon.ico
+ create mode 100644 EdiwnPro/static/images/icons/flag-in.png
+ create mode 100644 EdiwnPro/static/images/icons/flag-kr.png
+ create mode 100644 EdiwnPro/static/images/icons/flag-tr.png
+ create mode 100644 EdiwnPro/static/images/icons/flag-usa.png
+ create mode 100644 EdiwnPro/static/images/icons/flag-vt.png
+ create mode 100644 EdiwnPro/static/images/icons/pay-american-ex.png
+ create mode 100644 EdiwnPro/static/images/icons/pay-bank.png
+ create mode 100644 EdiwnPro/static/images/icons/pay-mastercard.png
+ create mode 100644 EdiwnPro/static/images/icons/pay-visa-el.png
+ create mode 100644 EdiwnPro/static/images/icons/pay-visa.png
+ create mode 100644 EdiwnPro/static/images/icons/stars-active.svg
+ create mode 100644 EdiwnPro/static/images/icons/starts-disable.svg
+ create mode 100644 EdiwnPro/static/images/items/.DS_Store
+ create mode 100644 EdiwnPro/static/images/items/1.jpg
+ create mode 100644 EdiwnPro/static/images/items/10.jpg
+ create mode 100644 EdiwnPro/static/images/items/11.jpg
+ create mode 100644 EdiwnPro/static/images/items/12-1.jpg
+ create mode 100644 EdiwnPro/static/images/items/12-2.jpg
+ create mode 100644 EdiwnPro/static/images/items/12.jpg
+ create mode 100644 EdiwnPro/static/images/items/2.jpg
+ create mode 100644 EdiwnPro/static/images/items/3.jpg
+ create mode 100644 EdiwnPro/static/images/items/4.jpg
+ create mode 100644 EdiwnPro/static/images/items/5.jpg
+ create mode 100644 EdiwnPro/static/images/items/6.jpg
+ create mode 100644 EdiwnPro/static/images/items/7.jpg
+ create mode 100644 EdiwnPro/static/images/items/8.jpg
+ create mode 100644 EdiwnPro/static/images/items/9.jpg
+ create mode 100644 EdiwnPro/static/images/logo.png
+ create mode 100644 EdiwnPro/static/images/misc/appstore.png
+ create mode 100644 EdiwnPro/static/images/misc/btn-paypal.png
+ create mode 100644 EdiwnPro/static/images/misc/cash.jpg
+ create mode 100644 EdiwnPro/static/images/misc/map.jpg
+ create mode 100644 EdiwnPro/static/images/misc/payment-bank.png
+ create mode 100644 EdiwnPro/static/images/misc/payment-card.png
+ create mode 100644 EdiwnPro/static/images/misc/payment-paypal.png
+ create mode 100644 EdiwnPro/static/images/misc/payments.png
+ create mode 100644 EdiwnPro/static/images/misc/playmarket.png
+ create mode 100644 EdiwnPro/static/js/.DS_Store
+ create mode 100644 EdiwnPro/static/js/bootstrap.bundle.min.js
+ create mode 100644 EdiwnPro/static/js/jquery-2.0.0.min.js
+ create mode 100644 EdiwnPro/static/js/script.js
+ create mode 100644 EdiwnPro/templates/base.html
+ create mode 100644 EdiwnPro/templates/home.html
+ create mode 100644 EdiwnPro/templates/include/footer.html
+ create mode 100644 EdiwnPro/templates/include/navbar.html
+ create mode 100644 EdiwnPro/templates/store/product_detail.html
+ create mode 100644 EdiwnPro/templates/store/store.html
+ create mode 100644 EdiwnPro/urls.py
+ create mode 100644 EdiwnPro/views.py
+ create mode 100644 EdiwnPro/wsgi.py
+ create mode 100644 accounts/__init__.py
+ create mode 100644 accounts/admin.py
+ create mode 100644 accounts/apps.py
+ create mode 100644 accounts/migrations/0001_initial.py
+ create mode 100644 accounts/migrations/__init__.py
+ create mode 100644 accounts/models.py
+ create mode 100644 accounts/tests.py
+ create mode 100644 accounts/views.py
+ create mode 100644 category/__init__.py
+ create mode 100644 category/admin.py
+ create mode 100644 category/apps.py
+ create mode 100644 category/context_processors.py
+ create mode 100644 category/migrations/0001_initial.py
+ create mode 100644 category/migrations/0002_alter_category_slug.py
+ create mode 100644 category/migrations/__init__.py
+ create mode 100644 category/models.py
+ create mode 100644 category/tests.py
+ create mode 100644 category/views.py
+ create mode 100644 manage.py
+ create mode 100644 static/admin/css/autocomplete.css
+ create mode 100644 static/admin/css/base.css
+ create mode 100644 static/admin/css/changelists.css
+ create mode 100644 static/admin/css/dark_mode.css
+ create mode 100644 static/admin/css/dashboard.css
+ create mode 100644 static/admin/css/fonts.css
+ create mode 100644 static/admin/css/forms.css
+ create mode 100644 static/admin/css/login.css
+ create mode 100644 static/admin/css/nav_sidebar.css
+ create mode 100644 static/admin/css/responsive.css
+ create mode 100644 static/admin/css/responsive_rtl.css
+ create mode 100644 static/admin/css/rtl.css
+ create mode 100644 static/admin/css/vendor/select2/LICENSE-SELECT2.md
+ create mode 100644 static/admin/css/vendor/select2/select2.css
+ create mode 100644 static/admin/css/vendor/select2/select2.min.css
+ create mode 100644 static/admin/css/widgets.css
+ create mode 100644 static/admin/fonts/LICENSE.txt
+ create mode 100644 static/admin/fonts/README.txt
+ create mode 100644 static/admin/fonts/Roboto-Bold-webfont.woff
+ create mode 100644 static/admin/fonts/Roboto-Light-webfont.woff
+ create mode 100644 static/admin/fonts/Roboto-Regular-webfont.woff
+ create mode 100644 static/admin/img/LICENSE
+ create mode 100644 static/admin/img/README.txt
+ create mode 100644 static/admin/img/calendar-icons.svg
+ create mode 100644 static/admin/img/gis/move_vertex_off.svg
+ create mode 100644 static/admin/img/gis/move_vertex_on.svg
+ create mode 100644 static/admin/img/icon-addlink.svg
+ create mode 100644 static/admin/img/icon-alert.svg
+ create mode 100644 static/admin/img/icon-calendar.svg
+ create mode 100644 static/admin/img/icon-changelink.svg
+ create mode 100644 static/admin/img/icon-clock.svg
+ create mode 100644 static/admin/img/icon-deletelink.svg
+ create mode 100644 static/admin/img/icon-no.svg
+ create mode 100644 static/admin/img/icon-unknown-alt.svg
+ create mode 100644 static/admin/img/icon-unknown.svg
+ create mode 100644 static/admin/img/icon-viewlink.svg
+ create mode 100644 static/admin/img/icon-yes.svg
+ create mode 100644 static/admin/img/inline-delete.svg
+ create mode 100644 static/admin/img/search.svg
+ create mode 100644 static/admin/img/selector-icons.svg
+ create mode 100644 static/admin/img/sorting-icons.svg
+ create mode 100644 static/admin/img/tooltag-add.svg
+ create mode 100644 static/admin/img/tooltag-arrowright.svg
+ create mode 100644 static/admin/js/SelectBox.js
+ create mode 100644 static/admin/js/SelectFilter2.js
+ create mode 100644 static/admin/js/actions.js
+ create mode 100644 static/admin/js/admin/DateTimeShortcuts.js
+ create mode 100644 static/admin/js/admin/RelatedObjectLookups.js
+ create mode 100644 static/admin/js/autocomplete.js
+ create mode 100644 static/admin/js/calendar.js
+ create mode 100644 static/admin/js/cancel.js
+ create mode 100644 static/admin/js/change_form.js
+ create mode 100644 static/admin/js/collapse.js
+ create mode 100644 static/admin/js/core.js
+ create mode 100644 static/admin/js/filters.js
+ create mode 100644 static/admin/js/inlines.js
+ create mode 100644 static/admin/js/jquery.init.js
+ create mode 100644 static/admin/js/nav_sidebar.js
+ create mode 100644 static/admin/js/popup_response.js
+ create mode 100644 static/admin/js/prepopulate.js
+ create mode 100644 static/admin/js/prepopulate_init.js
+ create mode 100644 static/admin/js/urlify.js
+ create mode 100644 static/admin/js/vendor/jquery/LICENSE.txt
+ create mode 100644 static/admin/js/vendor/jquery/jquery.js
+ create mode 100644 static/admin/js/vendor/jquery/jquery.min.js
+ create mode 100644 static/admin/js/vendor/select2/LICENSE.md
+ create mode 100644 static/admin/js/vendor/select2/i18n/af.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/ar.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/az.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/bg.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/bn.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/bs.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/ca.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/cs.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/da.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/de.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/dsb.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/el.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/en.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/es.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/et.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/eu.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/fa.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/fi.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/fr.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/gl.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/he.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/hi.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/hr.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/hsb.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/hu.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/hy.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/id.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/is.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/it.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/ja.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/ka.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/km.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/ko.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/lt.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/lv.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/mk.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/ms.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/nb.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/ne.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/nl.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/pl.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/ps.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/pt-BR.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/pt.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/ro.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/ru.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/sk.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/sl.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/sq.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/sr-Cyrl.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/sr.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/sv.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/th.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/tk.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/tr.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/uk.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/vi.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/zh-CN.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/zh-TW.js
+ create mode 100644 static/admin/js/vendor/select2/select2.full.js
+ create mode 100644 static/admin/js/vendor/select2/select2.full.min.js
+ create mode 100644 static/admin/js/vendor/xregexp/LICENSE.txt
+ create mode 100644 static/admin/js/vendor/xregexp/xregexp.js
+ create mode 100644 static/admin/js/vendor/xregexp/xregexp.min.js
+ create mode 100644 static/css/bootstrap.css
+ create mode 100644 static/css/responsive.css
+ create mode 100644 static/css/responsive.css.map
+ create mode 100644 static/css/ui.css
+ create mode 100644 static/css/ui.css.map
+ create mode 100644 static/fonts/fontawesome/css/all.css
+ create mode 100644 static/fonts/fontawesome/css/all.min.css
+ create mode 100644 static/fonts/fontawesome/webfonts/fa-brands-400.eot
+ create mode 100644 static/fonts/fontawesome/webfonts/fa-brands-400.svg
+ create mode 100644 static/fonts/fontawesome/webfonts/fa-brands-400.ttf
+ create mode 100644 static/fonts/fontawesome/webfonts/fa-brands-400.woff
+ create mode 100644 static/fonts/fontawesome/webfonts/fa-brands-400.woff2
+ create mode 100644 static/fonts/fontawesome/webfonts/fa-regular-400.eot
+ create mode 100644 static/fonts/fontawesome/webfonts/fa-regular-400.svg
+ create mode 100644 static/fonts/fontawesome/webfonts/fa-regular-400.ttf
+ create mode 100644 static/fonts/fontawesome/webfonts/fa-regular-400.woff
+ create mode 100644 static/fonts/fontawesome/webfonts/fa-regular-400.woff2
+ create mode 100644 static/fonts/fontawesome/webfonts/fa-solid-900.eot
+ create mode 100644 static/fonts/fontawesome/webfonts/fa-solid-900.svg
+ create mode 100644 static/fonts/fontawesome/webfonts/fa-solid-900.ttf
+ create mode 100644 static/fonts/fontawesome/webfonts/fa-solid-900.woff
+ create mode 100644 static/fonts/fontawesome/webfonts/fa-solid-900.woff2
+ create mode 100644 static/fonts/roboto/Roboto-Bold.ttf
+ create mode 100644 static/fonts/roboto/Roboto-Light.ttf
+ create mode 100644 static/fonts/roboto/Roboto-Medium.ttf
+ create mode 100644 static/fonts/roboto/Roboto-Regular.ttf
+ create mode 100644 static/fonts/roboto/Roboto-Thin.ttf
+ create mode 100644 static/fonts/roboto/font-min.css
+ create mode 100644 static/fonts/roboto/font.css
+ create mode 100644 static/images/avatars/avatar1.jpg
+ create mode 100644 static/images/avatars/avatar2.jpg
+ create mode 100644 static/images/avatars/avatar3.jpg
+ create mode 100644 static/images/banners/1.jpg
+ create mode 100644 static/images/banners/cover.jpg
+ create mode 100644 static/images/favicon.ico
+ create mode 100644 static/images/icons/flag-in.png
+ create mode 100644 static/images/icons/flag-kr.png
+ create mode 100644 static/images/icons/flag-tr.png
+ create mode 100644 static/images/icons/flag-usa.png
+ create mode 100644 static/images/icons/flag-vt.png
+ create mode 100644 static/images/icons/pay-american-ex.png
+ create mode 100644 static/images/icons/pay-bank.png
+ create mode 100644 static/images/icons/pay-mastercard.png
+ create mode 100644 static/images/icons/pay-visa-el.png
+ create mode 100644 static/images/icons/pay-visa.png
+ create mode 100644 static/images/icons/stars-active.svg
+ create mode 100644 static/images/icons/starts-disable.svg
+ create mode 100644 static/images/items/1.jpg
+ create mode 100644 static/images/items/10.jpg
+ create mode 100644 static/images/items/11.jpg
+ create mode 100644 static/images/items/12-1.jpg
+ create mode 100644 static/images/items/12-2.jpg
+ create mode 100644 static/images/items/12.jpg
+ create mode 100644 static/images/items/2.jpg
+ create mode 100644 static/images/items/3.jpg
+ create mode 100644 static/images/items/4.jpg
+ create mode 100644 static/images/items/5.jpg
+ create mode 100644 static/images/items/6.jpg
+ create mode 100644 static/images/items/7.jpg
+ create mode 100644 static/images/items/8.jpg
+ create mode 100644 static/images/items/9.jpg
+ create mode 100644 static/images/logo.png
+ create mode 100644 static/images/misc/appstore.png
+ create mode 100644 static/images/misc/btn-paypal.png
+ create mode 100644 static/images/misc/cash.jpg
+ create mode 100644 static/images/misc/map.jpg
+ create mode 100644 static/images/misc/payment-bank.png
+ create mode 100644 static/images/misc/payment-card.png
+ create mode 100644 static/images/misc/payment-paypal.png
+ create mode 100644 static/images/misc/payments.png
+ create mode 100644 static/images/misc/playmarket.png
+ create mode 100644 static/js/bootstrap.bundle.min.js
+ create mode 100644 static/js/jquery-2.0.0.min.js
+ create mode 100644 static/js/script.js
+ create mode 100644 store/__init__.py
+ create mode 100644 store/admin.py
+ create mode 100644 store/apps.py
+ create mode 100644 store/migrations/0001_initial.py
+ create mode 100644 store/migrations/__init__.py
+ create mode 100644 store/models.py
+ create mode 100644 store/tests.py
+ create mode 100644 store/urls.py
+ create mode 100644 store/views.py
+
+E:\Projects for Python\Veronica>git remote add origin https://github.com/RohithAcharya98/greatkart-django.git
+error: remote origin already exists.
+
+E:\Projects for Python\Veronica>git branch -M main
+
+E:\Projects for Python\Veronica>git push -u origin main
+Enumerating objects: 296, done.
+Counting objects: 100% (296/296), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (291/291), done.
+Writing objects: 100% (295/295), 3.03 MiB | 3.08 MiB/s, done.
+Total 295 (delta 47), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (47/47), done.
+To https://github.com/RohithAcharya98/greatkart-django.git
+   0dbd490..b04634d  main -> main
+branch 'main' set up to track 'origin/main'.
+
+E:\Projects for Python\Veronica>
